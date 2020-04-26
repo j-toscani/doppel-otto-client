@@ -14,9 +14,9 @@ Vue.use(VueRouter);
     path: "/about",
     name: "About",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+      import(/* webpackChunkName: "about" */ /*"../views/About.vue")
   }
-/* ]; */
+]; */
 
 const router = new VueRouter({
   mode: "history",
