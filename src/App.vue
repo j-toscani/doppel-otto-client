@@ -57,7 +57,6 @@ body {
 
 .interactive_dark {
   background: rgb(var(--color-interactive-dark));
-  color: black;
   width: 100px;
   height: 100px;
 }
